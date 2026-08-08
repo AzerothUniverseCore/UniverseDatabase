@@ -9360,7 +9360,11 @@ INSERT INTO `quest_request_items` (`ID`, `EmoteOnComplete`, `EmoteOnIncomplete`,
 (338036, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of troggs, $n. Do not return until you have success to report.', 0),
 (338037, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of troggs, $n. Do not return until you have success to report.', 0),
 (338038, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of troggs, $n. Do not return until you have success to report.', 0),
-(338039, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of Brochecorne, $n. Do not return until you have success to report.', 0);
+(338039, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of Brochecorne, $n. Do not return until you have success to report.', 0),
+(8008124, 0, 0, '', 0),
+(8008125, 0, 0, '', 0),
+(8008126, 0, 0, '', 0),
+(8008127, 0, 0, '', 0);
 
--- 9312 ligne(s)
+-- 9316 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
