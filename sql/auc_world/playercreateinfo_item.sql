@@ -13,6 +13,7 @@ CREATE TABLE `playercreateinfo_item` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
 INSERT INTO `playercreateinfo_item` (`race`, `class`, `itemid`, `amount`) VALUES
+(0, 0, 50317, 1),
 (0, 1, 4540, 30),
 (0, 1, 69481, 1),
 (0, 2, 159, 30),
@@ -86,5 +87,5 @@ INSERT INTO `playercreateinfo_item` (`race`, `class`, `itemid`, `amount`) VALUES
 (30, 3, 2516, 127),
 (31, 3, 2516, 127);
 
--- 72 ligne(s)
+-- 73 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
