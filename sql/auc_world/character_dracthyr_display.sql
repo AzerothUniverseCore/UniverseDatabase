@@ -12,8 +12,10 @@ CREATE TABLE `character_dracthyr_display` (
 INSERT INTO `character_dracthyr_display` (`guid`, `displayId`) VALUES
 (82, 569223),
 (96, 606344),
-(222, 614994),
-(223, 605615),
+(156, 609591),
+(162, 580041),
+(163, 584041),
+(166, 616258),
 (1910, 606969),
 (1911, 594435),
 (1912, 569814),
@@ -97,5 +99,5 @@ INSERT INTO `character_dracthyr_display` (`guid`, `displayId`) VALUES
 (3639, 598749),
 (3663, 596172);
 
--- 86 ligne(s)
+-- 88 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
