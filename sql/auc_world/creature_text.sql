@@ -20767,7 +20767,8 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (54445, 4, 0, 'You forced my hand.', 14, 0, 100.0e0, 0, 0, 25921, 56575, 0, 'Echo of Jaina - Slay 1'),
 (54445, 4, 1, 'I didn\'t want to do that.', 14, 0, 100.0e0, 0, 0, 25922, 56576, 0, 'Echo of Jaina - Slay 2'),
 (54445, 4, 2, 'I wish you\'d surrendered.', 14, 0, 100.0e0, 0, 0, 25923, 56577, 0, 'Echo of Jaina - Slay 3'),
-(54567, 0, 0, NULL, 0, 12, 100.0e0, 2, 0, 27404, 0, 0, 'Aysa Cloudsinger'),
+(54567, 0, 0, 'A test of compassion and humility. By helping your merchant, Lorvo, you have passed it. Master Shang will be pleased.', 0, 12, 100.0e0, 2, 0, 27404, 60599, 0, 'Aysa Cloudsinger'),
+(54567, 1, 0, 'Our path is becoming clear. Speak with Master Shang Xi he will know what to do.', 0, 12, 100.0e0, 2, 0, 27399, 60046, 0, 'Aysa Cloudsinger'),
 (54586, 0, 0, 'I have never seen a trainee with skills such as yours. I must tell the others.', 12, 0, 100.0e0, 2, 0, 0, 0, 0, ''),
 (54586, 0, 1, 'My skills are no match for yours. I admit defeat.', 12, 0, 100.0e0, 2, 0, 0, 0, 0, ''),
 (54586, 0, 2, 'Thank you for reminding me that I must train more diligently.', 12, 0, 100.0e0, 2, 0, 0, 0, 0, ''),
@@ -20876,6 +20877,17 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (56173, 9, 2, 'Your armor means nothing, your faith even less.', 14, 0, 100.0e0, 0, 0, 26355, 55780, 1, 'Deathwing - Elementium Bolt 3'),
 (56173, 10, 0, 'I AM DEATHWING, THE DESTROYER, THE END OF ALL THINGS, INEVITABLE, INDOMITABLE; I AM THE CATACLYSM!', 14, 0, 100.0e0, 0, 0, 26348, 55785, 1, 'Deathwing - Slump'),
 (56173, 11, 0, '|TInterface\\Icons\\inv_stave_2h_deathwingraiddw_d_01.blp:20|t%s falls forward, get to |cFF04FC32Ysera\'s|r platform!', 41, 0, 100.0e0, 0, 0, 0, 56720, 1, 'Deathwing - Announce Slump'),
+(56661, 0, 0, '...Ji, they were in the Wood of Staves.  You know where Master Shang is now.', 12, 0, 100.0e0, 1, 0, 27431, 55555, 0, 'Aysa Cloudsinger'),
+(56661, 1, 0, 'Ji, be respectful when we speak to Shen-zin Su.', 12, 0, 100.0e0, 1, 0, 27432, 55560, 0, 'Aysa Cloudsinger'),
+(56661, 2, 0, 'I might if you embarrass us.', 12, 0, 100.0e0, 1, 0, 27433, 55562, 0, 'Aysa Cloudsinger'),
+(56661, 3, 0, 'Shen-zin Su, we are the descendants of Liu Lang.  We\'ve sensed your pain, and we want to help.', 14, 0, 100.0e0, 1, 0, 27434, 55563, 0, 'Aysa Cloudsinger'),
+(56661, 4, 0, 'What ails you Shen-zin Su?  What can we do?', 14, 0, 100.0e0, 6, 0, 27435, 55564, 0, 'Aysa Cloudsinger'),
+(56661, 5, 0, 'Of course, Shen-zin Su!  But your shell is large, and I do not know where this thorn could be.', 14, 0, 100.0e0, 1, 0, 27436, 55571, 0, 'Aysa Cloudsinger'),
+(56661, 6, 0, 'We will find it, and we will remove it.  You have our word!', 14, 0, 100.0e0, 1, 0, 27437, 55573, 0, 'Aysa Cloudsinger'),
+(56661, 7, 0, 'We\'ll know soon enough.', 12, 0, 100.0e0, 1, 0, 27438, 55576, 0, 'Aysa Cloudsinger'),
+(56661, 8, 0, 'It is a boat... a whole airship!  That\'s a bigger thorn than I was expecting.', 12, 0, 100.0e0, 1, 0, 27439, 55578, 0, 'Aysa Cloudsinger'),
+(56661, 9, 0, 'Someone has crashed into our island.  Removing this thorn may be more complicated than we thought.', 12, 0, 100.0e0, 1, 0, 27440, 55581, 0, 'Aysa Cloudsinger'),
+(56661, 10, 0, 'We should let Elder Shaopai know and then plan our next move.', 12, 0, 100.0e0, 1, 0, 27441, 55582, 0, 'Aysa Cloudsinger'),
 (56662, 0, 0, '', 12, 0, 100.0e0, 1, 0, 27428, 0, 0, 'Aysa Cloudsinger'),
 (56662, 1, 0, '', 12, 0, 100.0e0, 1, 0, 27429, 0, 0, 'Aysa Cloudsinger'),
 (56662, 2, 0, '', 12, 0, 100.0e0, 1, 0, 27430, 0, 0, 'Aysa Cloudsinger'),
@@ -21090,7 +21102,9 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (90000, 2, 1, 'Et voila ... c\'etait prévisible', 12, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
 (150255, 0, 0, 'Gimme all your vegetables!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (150255, 0, 1, 'AIIIIEEEEEEE!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
-(150255, 0, 2, 'This virmen land!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
+(150255, 0, 2, 'This virmen land!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen');
+
+INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
 (150255, 0, 3, 'You no take carrot! You take turnip instead!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (161721, 0, 0, 'You can leave my sight, squire, before I slay you. Again.', 12, 0, 100.0e0, 0, 0, 0, 28104, 0, 'Siouxsie the Banshee'),
 (161721, 0, 1, 'No. Away with you, worm.', 12, 0, 100.0e0, 0, 0, 0, 28105, 0, 'Siouxsie the Banshee'),
@@ -21102,9 +21116,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (183180, 0, 4, 'Arak-ha!', 12, 0, 100.0e0, 0, 0, 0, 16720, 0, 'Sethekk Initiate'),
 (183190, 0, 0, 'In Terokk\'s name!', 12, 0, 100.0e0, 0, 0, 0, 16716, 0, 'Time-Lost Scryer'),
 (183190, 0, 1, 'Protect the Veil!', 12, 0, 100.0e0, 0, 0, 0, 16717, 0, 'Time-Lost Scryer'),
-(183190, 0, 2, 'Darkfire -- avenge us!', 12, 0, 100.0e0, 0, 0, 0, 16718, 0, 'Time-Lost Scryer');
-
-INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
+(183190, 0, 2, 'Darkfire -- avenge us!', 12, 0, 100.0e0, 0, 0, 0, 16718, 0, 'Time-Lost Scryer'),
 (183190, 0, 3, 'Ssssekk-sara Rith-nealaak!', 12, 0, 100.0e0, 0, 0, 0, 16719, 0, 'Time-Lost Scryer'),
 (183190, 0, 4, 'Arak-ha!', 12, 0, 100.0e0, 0, 0, 0, 16720, 0, 'Time-Lost Scryer'),
 (183210, 0, 0, 'In Terokk\'s name!', 12, 0, 100.0e0, 0, 0, 0, 16716, 0, 'Sethekk Talon Lord'),
@@ -21218,5 +21230,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21112 ligne(s)
+-- 21124 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
