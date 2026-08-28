@@ -816,7 +816,8 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 (4138, 6296, 0, 'Arena - Tol\'vir - Teleport Target - Game On'),
 (4534, 6732, 0, 'Arena - Shado-Pan - Teleport Target - Team 1'),
 (4535, 6732, 0, 'Arena - Shado-Pan - Teleport Target - Team 2'),
-(4536, 6732, 0, 'Arena - Shado-Pan - Teleport Target - Game On');
+(4536, 6732, 0, 'Arena - Shado-Pan - Teleport Target - Game On'),
+(19000, 50668, 469, 'Gilneas - Worgen Start Graveyard');
 
--- 803 ligne(s)
+-- 804 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
