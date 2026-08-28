@@ -9,8 +9,8 @@ CREATE TABLE `bp_pet_locale` (
   `esES` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `frFR` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `deDE` text COLLATE utf8mb4_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `bp_pet_locale` (`id`, `enUS`, `esES`, `frFR`, `deDE`) VALUES
 (1, 'The pet battle system is disabled on this server.', 'El sistema de combate de mascotas está desactivado en este servidor.', 'Le système de combat des mascottes est désactivé sur ce serveur.', 'Das Haustierkampfsystem ist auf diesem Server deaktiviert.'),

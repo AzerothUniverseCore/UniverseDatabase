@@ -27,6 +27,7 @@ INSERT INTO `playercreateinfo_item` (`race`, `class`, `itemid`, `amount`) VALUES
 (0, 5, 159, 30),
 (0, 5, 4540, 30),
 (0, 5, 69484, 1),
+(0, 6, 37201, 127),
 (0, 6, 40582, -1),
 (0, 6, 69485, 1),
 (0, 6, 316908, 1),
@@ -87,5 +88,5 @@ INSERT INTO `playercreateinfo_item` (`race`, `class`, `itemid`, `amount`) VALUES
 (30, 3, 2516, 127),
 (31, 3, 2516, 127);
 
--- 73 ligne(s)
+-- 74 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

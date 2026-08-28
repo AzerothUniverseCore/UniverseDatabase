@@ -15,6 +15,12 @@ INSERT INTO `character_dracthyr_display` (`guid`, `displayId`) VALUES
 (222, 614994),
 (223, 605615),
 (224, 602881),
+(253, 571828),
+(292, 599889),
+(314, 585518),
+(335, 593574),
+(341, 608526),
+(354, 604743),
 (1910, 606969),
 (1911, 594435),
 (1912, 569814),
@@ -98,5 +104,5 @@ INSERT INTO `character_dracthyr_display` (`guid`, `displayId`) VALUES
 (3639, 598749),
 (3663, 596172);
 
--- 87 ligne(s)
+-- 93 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
