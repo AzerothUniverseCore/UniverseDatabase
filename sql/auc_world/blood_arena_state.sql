@@ -10,7 +10,7 @@ CREATE TABLE `blood_arena_state` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `blood_arena_state` (`id`, `current_season`) VALUES
-(1, '202608');
+(1, '202609');
 
 -- 1 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

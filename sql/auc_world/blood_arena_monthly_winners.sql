@@ -13,5 +13,9 @@ CREATE TABLE `blood_arena_monthly_winners` (
   PRIMARY KEY (`season_key`,`mode`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
--- 0 ligne(s)
+INSERT INTO `blood_arena_monthly_winners` (`season_key`, `mode`, `group_names`, `score_value`, `progression`, `created_at`) VALUES
+('202608', 1, 'KaelRyna', 277, 1, '2026-09-01 00:00:18'),
+('202608', 2, 'Hapys', 215910, 1, '2026-09-01 00:00:18');
+
+-- 2 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

@@ -2243,7 +2243,8 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2409, -183.61e0, 651.266e0, 7153.23e0, 0.0620439e0, 865, 'ProofofRebirth25'),
 (2410, -910.238e0, 395.357e0, 7180.44e0, 5.28305e0, 865, 'ProofofRebirth30'),
 (2411, 948.64e0, 3720.85e0, 189.06e0, 1.51602e0, 772, 'GlyphMonkIsle'),
-(2412, 4002.46e0, 8399.58e0, 322.217e0, 0.886692e0, 863, 'NewCognenuitStart');
+(2412, 4002.46e0, 8399.58e0, 322.217e0, 0.886692e0, 863, 'NewCognenuitStart'),
+(2413, -1528.32e0, 3301.9e0, 108.452e0, 5.12584e0, 805, 'ZoneFarmLegion');
 
--- 2221 ligne(s)
+-- 2222 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

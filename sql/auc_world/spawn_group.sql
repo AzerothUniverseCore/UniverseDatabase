@@ -84370,7 +84370,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 (330, 0, 9930315),
 (330, 0, 9930323),
 (330, 0, 9930324),
-(330, 0, 9930418),
 (330, 0, 9930435),
 (331, 0, 9930412),
 (332, 0, 9930451),
@@ -84378,5 +84377,5 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 (334, 0, 568900),
 (335, 0, 568901);
 
--- 84030 ligne(s)
+-- 84029 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

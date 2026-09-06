@@ -14,8 +14,7 @@ INSERT INTO `playercreateinfo_cast_spell` (`raceMask`, `classMask`, `spell`, `no
 (0, 1, 2457, 'Warrior - Battle Stance'),
 (0, 32, 48266, 'Death Knight - Blood Presence'),
 (0, 8192, 103985, 'Monk - Stance of the Fierce Tiger'),
-(0, 0, 750000, 'Wings AzerothUniverse - All Races'),
-(16, 925, 73523, 'Undead - Rigor Mortis');
+(0, 0, 750000, 'Wings AzerothUniverse - All Races');
 
--- 5 ligne(s)
+-- 4 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
