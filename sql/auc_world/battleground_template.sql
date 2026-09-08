@@ -21,7 +21,7 @@ CREATE TABLE `battleground_template` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
 INSERT INTO `battleground_template` (`ID`, `MinPlayersPerTeam`, `MaxPlayersPerTeam`, `MinLvl`, `MaxLvl`, `AllianceStartLoc`, `AllianceStartO`, `HordeStartLoc`, `HordeStartO`, `StartMaxDist`, `Weight`, `ScriptName`, `Comment`) VALUES
-(1, 20, 40, 51, 90, 611, 3.16312e0, 610, 0.715504e0, 100.0e0, 1, '', 'Alterac Valley'),
+(1, 12, 40, 51, 90, 611, 3.16312e0, 610, 0.715504e0, 100.0e0, 1, '', 'Alterac Valley'),
 (2, 2, 10, 10, 90, 769, 3.14159e0, 770, 0.151581e0, 75.0e0, 1, '', 'Warsong Gulch'),
 (3, 2, 15, 20, 90, 890, 3.91571e0, 889, 0.813671e0, 75.0e0, 1, '', 'Arathi Basin'),
 (4, 0, 5, 10, 90, 929, 0.0e0, 936, 3.14159e0, 0.0e0, 1, '', 'Nagrand Arena'),

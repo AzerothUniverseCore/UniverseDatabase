@@ -2244,7 +2244,10 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2410, -910.238e0, 395.357e0, 7180.44e0, 5.28305e0, 865, 'ProofofRebirth30'),
 (2411, 948.64e0, 3720.85e0, 189.06e0, 1.51602e0, 772, 'GlyphMonkIsle'),
 (2412, 4002.46e0, 8399.58e0, 322.217e0, 0.886692e0, 863, 'NewCognenuitStart'),
-(2413, -1528.32e0, 3301.9e0, 108.452e0, 5.12584e0, 805, 'ZoneFarmLegion');
+(2413, -1528.32e0, 3301.9e0, 108.452e0, 5.12584e0, 805, 'ZoneFarmLegion'),
+(2414, 1780.23e0, 1584.61e0, 30.2953e0, 4.71304e0, 774, 'SpawnHordeBotVOP'),
+(2415, 1784.53e0, 1084.9e0, 26.8517e0, 1.57679e0, 774, 'SpawnAllianceBotVOP'),
+(2416, 1785.22e0, 1330.83e0, 5.55668e0, 1.8823e0, 774, 'CenterBotVOP');
 
--- 2222 ligne(s)
+-- 2225 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
