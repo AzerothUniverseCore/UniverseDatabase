@@ -12,7 +12,7 @@ CREATE TABLE `version` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT='Version Notes';
 
 INSERT INTO `version` (`core_version`, `core_revision`, `db_version`, `cache_id`) VALUES
-('SyphrenaCore rev. adda0ef35ddd 2026-09-09 03:52:23 +0200 (main branch) (Win64, RelWithDebInfo, Static)', 'adda0ef35ddd', 'TDB 335.23061', 25425);
+('SyphrenaCore rev. f0f67d12157e+ 2026-09-09 23:15:38 +0200 (main branch) (Win64, RelWithDebInfo, Static)', 'f0f67d12157e+', 'TDB 335.23061', 25425);
 
 -- 1 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
