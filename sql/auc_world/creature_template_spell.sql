@@ -9716,6 +9716,7 @@ INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `Verified
 (66100, 1, 130120, 12340),
 (66100, 2, 126848, 12340),
 (167142, 0, 29579, 12340),
+(167150, 0, 29579, 0),
 (183180, 0, 33961, 12340),
 (183180, 1, 16145, 12340),
 (339623, 0, 62345, 12340),
@@ -9732,5 +9733,5 @@ INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `Verified
 (339625, 3, 64660, 12340),
 (3381234, 0, 40124, 12340);
 
--- 9681 ligne(s)
+-- 9682 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

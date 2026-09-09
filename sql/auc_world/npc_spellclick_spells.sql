@@ -764,6 +764,8 @@ INSERT INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `use
 (167027, 65403, 1, 0),
 (167142, 29579, 1, 0),
 (167142, 65403, 1, 0),
+(167150, 29579, 1, 0),
+(167150, 65403, 1, 0),
 (339623, 65031, 1, 0),
 (339624, 62309, 1, 0),
 (339625, 65030, 1, 0),
@@ -781,5 +783,5 @@ INSERT INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `use
 (500011, 65030, 1, 0),
 (7000310, 65403, 1, 0);
 
--- 766 ligne(s)
+-- 768 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

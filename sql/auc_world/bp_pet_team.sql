@@ -52,9 +52,10 @@ INSERT INTO `bp_pet_team` (`guid`, `slot1_creature_entry`, `slot2_creature_entry
 (525, 7562, 0, 0),
 (542, 29089, 7565, 7562),
 (547, 29089, 7565, 7562),
+(611, 26119, 29726, 32643),
 (614, 7562, 0, 0),
 (616, 7562, 0, 0),
 (617, 7562, 0, 0);
 
--- 43 ligne(s)
+-- 44 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
