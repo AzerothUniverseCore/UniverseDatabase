@@ -21100,11 +21100,17 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (90000, 1, 7, 'Mouai , je croyais que ce serait facile …', 12, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
 (90000, 2, 0, 'Vous prenez ça vraiment au sérieux, pas vrai ?', 12, 0, 0.0e0, 11, 500, 0, 0, 0, 'Commentaire'),
 (90000, 2, 1, 'Et voila ... c\'etait prévisible', 12, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
-(150255, 0, 0, 'Gimme all your vegetables!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
-(150255, 0, 1, 'AIIIIEEEEEEE!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
-(150255, 0, 2, 'This virmen land!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen');
+(90100, 0, 0, 'Alright, let\'s head to the Hall of Shadows! It\'s there, deep in the bowels of Dalaran, that your artifact weapon can be upgraded.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - depart'),
+(90100, 1, 0, 'Here we are. The upgrade for your artifact weapon is right in front of us.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - arrivee'),
+(90100, 2, 0, 'To upgrade your artifact weapons, you\'ll need Infusion Crystals.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - cristaux d\'infusion');
 
 INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
+(90100, 3, 0, 'Each upgrade costs 14,000 Infusion Crystals, so you\'d better start farming!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - cout de l\'amelioration'),
+(90100, 4, 0, 'Nothing simpler to find them: they\'re all over the world, every creature drops 10.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - farm des cristaux'),
+(90100, 5, 0, 'In our capital, a gnome runs a creature arena event: an excellent way to gather a large quantity of them.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - event arene du gnome'),
+(150255, 0, 0, 'Gimme all your vegetables!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
+(150255, 0, 1, 'AIIIIEEEEEEE!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
+(150255, 0, 2, 'This virmen land!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (150255, 0, 3, 'You no take carrot! You take turnip instead!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (161721, 0, 0, 'You can leave my sight, squire, before I slay you. Again.', 12, 0, 100.0e0, 0, 0, 0, 28104, 0, 'Siouxsie the Banshee'),
 (161721, 0, 1, 'No. Away with you, worm.', 12, 0, 100.0e0, 0, 0, 0, 28105, 0, 'Siouxsie the Banshee'),
@@ -21230,5 +21236,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21124 ligne(s)
+-- 21130 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

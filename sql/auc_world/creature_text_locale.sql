@@ -59,10 +59,16 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (56686, 3, 0, 'frFR', '« Désormais, Shen-zin Su est malade, et nous sommes tous en danger. Avec l\'aide des éléments, tu briseras le silence. Tu lui parleras. »'),
 (56686, 4, 0, 'frFR', '« Aysa et Ji ont récupéré les esprits et les ont amenés ici. Tu dois les accompagner, parler au grand Shen-zin Su, et faire ce qui doit être fait pour sauver notre peuple. »'),
 (56686, 5, 0, 'frFR', '« Tu as fait beaucoup de chemin, mon jeune élève. Je vois en toi un grand héros. Je confie le destin de cette terre entre tes mains. »'),
+(90100, 0, 0, 'frFR', 'Allez, en route pour la Salle des Ombres ! C\'est là, dans les entrailles de Dalaran, que ton arme prodigieuse pourra être améliorée.'),
+(90100, 1, 0, 'frFR', 'Nous y voila. L\'amelioration de ton arme prodigieuse est juste devant nous.'),
+(90100, 2, 0, 'frFR', 'Pour ameliorer tes armes prodigieuses, tu auras besoin de Cristaux d\'Infusion.'),
+(90100, 3, 0, 'frFR', 'Chaque amelioration coute 14 000 Cristaux d\'Infusion, autant te dire qu\'il va falloir en recolter !'),
+(90100, 4, 0, 'frFR', 'Rien de plus simple pour en trouver : il y en a partout dans le monde, chaque creature en laisse 10.'),
+(90100, 5, 0, 'frFR', 'Dans notre capitale, un gnome organise un event d\'arene de creatures : un excellent moyen d\'en recolter en grande quantite.'),
 (150255, 0, 0, 'frFR', 'Donnez-moi tous vos légumes !'),
 (150255, 0, 1, 'frFR', 'AIIIIEEEEEEE!'),
 (150255, 0, 2, 'frFR', 'Cette terre de virmen !'),
 (150255, 0, 3, 'frFR', 'Vous ne prenez pas de carotte ! Tu prends le navet à la place !');
 
--- 50 ligne(s)
+-- 56 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
