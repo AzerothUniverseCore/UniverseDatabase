@@ -21190,6 +21190,25 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (338080, 1, 1, 'Are you lost? Come and see me!', 12, 7, 100.0e0, 0, 0, 0, 338080, 0, 'Catarina Stanford'),
 (351290, 0, 0, '$n, Before you finish your quest, go and see my clone Chromie next door. She\'s sure to have a reward for you. Come back and see me afterward.', 12, 0, 100.0e0, 0, 0, 0, 351290, 0, 'Chromie'),
 (1500730, 0, 0, 'Bienvenue en Pandarie !', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Sentinelle des sept-étoiles'),
+(2000512, 0, 0, 'Welcome, adventurer! I am the Jaedenar Legionnaire. Follow me, I will guide you to the Netheril camp.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - depart vaisseau'),
+(2000512, 1, 0, 'It\'s not much further, keep following me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 1'),
+(2000512, 2, 0, 'This area is designed to gear you up with ilvl 245 gear.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 2'),
+(2000512, 3, 0, 'It will help you prepare before facing Azeroth Universe\'s custom dungeons.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 3'),
+(2000512, 4, 0, 'You will need to complete the Netheril achievement to access Azeroth Universe\'s custom dungeon.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 4'),
+(2000512, 5, 0, 'Here we are. Stay close to me, I\'m teleporting you to Netheril Camp 1!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - teleportation vers Netheril'),
+(2000512, 6, 0, 'Here we are, we\'ve arrived at Netheril.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - arrivee camp'),
+(2000512, 7, 0, 'Follow me, I\'ll show you around.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - intro visite'),
+(2000512, 8, 0, 'Pick up your quests here, then we\'ll continue on our way.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - quetes 1'),
+(2000512, 9, 0, 'This is where you\'ll find the creatures to defeat in order to earn gear vouchers, which you can then convert to equip yourself before Azeroth Universe\'s custom dungeons.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - zone creatures/bons d\'equipement'),
+(2000512, 10, 0, 'You can also pick up gear vouchers around here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - bons d\'equipement bis'),
+(2000512, 11, 0, 'To access the first dungeon of the Lands of Fyra, S0 tier of Azeroth Universe, you\'ll need to earn the Netheril achievement.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - haut fait'),
+(2000512, 12, 0, 'By defeating the creatures I showed you, you\'ll earn gear vouchers. Here, you can convert them into higher-tier gear vouchers.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - conversion des bons'),
+(2000512, 13, 0, 'Here, you can buy your recipes.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vente de recettes'),
+(2000512, 14, 0, 'And here, on the Alliance side, is where you can also gear up using your vouchers.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - equipement Alliance'),
+(2000512, 15, 0, 'Pick up your quests, then let\'s continue the tour.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - quetes 2'),
+(2000512, 16, 0, 'By taking part in battlegrounds with the bots, you\'ll earn honor points, which can be exchanged for mounts or PvP gear.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - PvP/points d\'honneur'),
+(2000512, 17, 0, 'New quests await you here, then we\'ll continue.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - quetes 3'),
+(2000512, 18, 0, 'Pick up your last quests here. Our tour of Netheril is coming to an end. Good luck on your adventure, adventurer. Farewell!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - au revoir/fin'),
 (5100403, 10, 1, 'Greetings, $n. Before you set out on your adventure, visit Clayra, who is just behind you, to equip yourself properly. This will be of great help in overcoming the Troggs.', 12, 0, 100.0e0, 3, 0, 0, 338034, 0, 'Thalios'),
 (7000103, 1, 1, 'Piou !!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
 (7000108, 1, 1, 'Piou ! Piou !! Piou !!!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
@@ -21236,5 +21255,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21130 ligne(s)
+-- 21149 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

@@ -68,7 +68,26 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (150255, 0, 0, 'frFR', 'Donnez-moi tous vos légumes !'),
 (150255, 0, 1, 'frFR', 'AIIIIEEEEEEE!'),
 (150255, 0, 2, 'frFR', 'Cette terre de virmen !'),
-(150255, 0, 3, 'frFR', 'Vous ne prenez pas de carotte ! Tu prends le navet à la place !');
+(150255, 0, 3, 'frFR', 'Vous ne prenez pas de carotte ! Tu prends le navet à la place !'),
+(2000512, 0, 0, 'frFR', 'Bienvenue, aventurier ! Je suis le Légionnaire de Jaedenar. Suivez-moi, je vais vous guider jusqu\'au camp de Netheril.'),
+(2000512, 1, 0, 'frFR', 'Ce n\'est plus très loin, continuez de me suivre.'),
+(2000512, 2, 0, 'frFR', 'Cette zone est prévue pour vous équiper avec du stuff d\'ilvl 245.'),
+(2000512, 3, 0, 'frFR', 'Elle vous permettra de vous préparer avant d\'affronter les donjons personnalisés d\'Azeroth Universe.'),
+(2000512, 4, 0, 'frFR', 'Vous devrez accomplir le haut fait de Netheril pour accéder au donjon personnalisé d\'Azeroth Universe.'),
+(2000512, 5, 0, 'frFR', 'Nous y voici. Restez près de moi, je vous téléporte au Camp 1 de Netheril !'),
+(2000512, 6, 0, 'frFR', 'Nous voici arrivés à Netheril.'),
+(2000512, 7, 0, 'frFR', 'Suivez-moi, je vais vous faire visiter les lieux.'),
+(2000512, 8, 0, 'frFR', 'Prenez vos quêtes ici, puis nous continuons notre chemin.'),
+(2000512, 9, 0, 'frFR', 'C\'est ici que se trouvent les créatures à vaincre pour obtenir des bons d\'équipement, à convertir ensuite pour vous équiper avant les donjons personnalisés d\'Azeroth Universe.'),
+(2000512, 10, 0, 'frFR', 'Vous pouvez également récupérer des bons d\'équipement par ici.'),
+(2000512, 11, 0, 'frFR', 'Pour accéder au premier donjon des Terres de Fyra, palier S0 d\'Azeroth Universe, vous devrez obtenir le haut fait de Netheril.'),
+(2000512, 12, 0, 'frFR', 'En vainquant les créatures que je vous ai montrées, vous obtiendrez des bons d\'équipement. Ici, vous pourrez les convertir en bons d\'équipement supérieurs.'),
+(2000512, 13, 0, 'frFR', 'Ici, vous pourrez acheter vos recettes.'),
+(2000512, 14, 0, 'frFR', 'Et voici, côté Alliance, de quoi vous équiper également grâce à vos bons d\'équipement.'),
+(2000512, 15, 0, 'frFR', 'Prenez vos quêtes, puis continuons la visite.'),
+(2000512, 16, 0, 'frFR', 'En participant aux champs de bataille avec les bots, vous gagnerez des points d\'honneur, échangeables contre des montures ou de l\'équipement PvP.'),
+(2000512, 17, 0, 'frFR', 'De nouvelles quêtes vous attendent ici, puis nous continuons.'),
+(2000512, 18, 0, 'frFR', 'Récupérez vos dernières quêtes ici. Notre visite de Netheril touche à sa fin. Bonne chance dans votre aventure, aventurier. Au revoir !');
 
--- 56 ligne(s)
+-- 75 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
