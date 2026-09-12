@@ -21200,7 +21200,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (2000512, 7, 0, 'Follow me, I\'ll show you around.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - intro visite'),
 (2000512, 8, 0, 'Pick up your quests here, then we\'ll continue on our way.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - quetes 1'),
 (2000512, 9, 0, 'This is where you\'ll find the creatures to defeat in order to earn gear vouchers, which you can then convert to equip yourself before Azeroth Universe\'s custom dungeons.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - zone creatures/bons d\'equipement'),
-(2000512, 10, 0, 'You can also pick up gear vouchers around here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - bons d\'equipement bis'),
+(2000512, 10, 0, 'You can also pick up gear around here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - bons d\'equipement bis'),
 (2000512, 11, 0, 'To access the first dungeon of the Lands of Fyra, S0 tier of Azeroth Universe, you\'ll need to earn the Netheril achievement.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - haut fait'),
 (2000512, 12, 0, 'By defeating the creatures I showed you, you\'ll earn gear vouchers. Here, you can convert them into higher-tier gear vouchers.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - conversion des bons'),
 (2000512, 13, 0, 'Here, you can buy your recipes.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vente de recettes'),
