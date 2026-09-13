@@ -69,6 +69,18 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (150255, 0, 1, 'frFR', 'AIIIIEEEEEEE!'),
 (150255, 0, 2, 'frFR', 'Cette terre de virmen !'),
 (150255, 0, 3, 'frFR', 'Vous ne prenez pas de carotte ! Tu prends le navet à la place !'),
+(624190, 0, 0, 'frFR', 'Bonjour, aventurier ! Je suis Aysa Cloudsinger, formatrice moine. Suivez-moi.'),
+(624190, 1, 0, 'frFR', 'Les armes prodigieuses sont des armes reprises à la Légion : ce sont des armes que vous devrez conserver tout au long de votre progression.'),
+(624190, 2, 0, 'frFR', 'Nous y voici. Restez près de moi, je vous téléporte jusqu\'à Nerozias !'),
+(624190, 3, 0, 'frFR', 'Il y a des marchands ici, n\'hésitez pas à faire un tour.'),
+(624190, 4, 0, 'frFR', 'Les armes prodigieuses possèdent plusieurs paliers : de A0 à A8, puis AM+0 à AM+8, et enfin le dernier palier, AM+FULL. Autant dire qu\'il y a du chemin à parcourir !'),
+(624190, 5, 0, 'frFR', 'Prenez votre quête ici.'),
+(624190, 6, 0, 'frFR', 'Suivez-moi, je vous téléporte jusqu\'au Chemin du Rêve d\'Émeraude !'),
+(624190, 7, 0, 'frFR', 'Nous voici arrivés au Chemin du Rêve d\'Émeraude.'),
+(624190, 8, 0, 'frFR', 'Nous nous rendons à présent au donjon du Monastère des Pandashan.'),
+(624190, 9, 0, 'frFR', 'On y est presque !'),
+(624190, 10, 0, 'frFR', 'Allez bien jusqu\'au bout du donjon, votre quête vous y attend.'),
+(624190, 11, 0, 'frFR', 'Voilà, notre visite touche à sa fin. Bonne chance dans le donjon, aventurier. Au revoir !'),
 (2000512, 0, 0, 'frFR', 'Bienvenue, aventurier ! Je suis le Légionnaire de Jaedenar. Suivez-moi, je vais vous guider jusqu\'au camp de Netheril.'),
 (2000512, 1, 0, 'frFR', 'Ce n\'est plus très loin, continuez de me suivre.'),
 (2000512, 2, 0, 'frFR', 'Cette zone est prévue pour vous équiper avec du stuff d\'ilvl 245.'),
@@ -89,5 +101,5 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (2000512, 17, 0, 'frFR', 'De nouvelles quêtes vous attendent ici, puis nous continuons.'),
 (2000512, 18, 0, 'frFR', 'Récupérez vos dernières quêtes ici. Notre visite de Netheril touche à sa fin. Bonne chance dans votre aventure, aventurier. Au revoir !');
 
--- 75 ligne(s)
+-- 87 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

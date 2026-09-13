@@ -21189,6 +21189,18 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (338024, 9, 0, 'Watch out! The troggs are charging straight at us, $n! I must leave you here. Take care and see you soon!', 12, 0, 100.0e0, 0, 0, 0, 338032, 0, 'Thalios'),
 (338080, 1, 1, 'Are you lost? Come and see me!', 12, 7, 100.0e0, 0, 0, 0, 338080, 0, 'Catarina Stanford'),
 (351290, 0, 0, '$n, Before you finish your quest, go and see my clone Chromie next door. She\'s sure to have a reward for you. Come back and see me afterward.', 12, 0, 100.0e0, 0, 0, 0, 351290, 0, 'Chromie'),
+(624190, 0, 0, 'Hello, adventurer! I am Aysa Cloudsinger, monk trainer. Follow me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - depart vaisseau'),
+(624190, 1, 0, 'Prodigious weapons are weapons reclaimed from the Legion: these are weapons you\'ll need to keep with you throughout your progression.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - vaisseau explication armes'),
+(624190, 2, 0, 'Here we are. Stay close to me, I\'m teleporting you to Nerozias!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - teleportation vers Nerozias'),
+(624190, 3, 0, 'There are merchants here, feel free to take a look around.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - vendeurs'),
+(624190, 4, 0, 'Prodigious weapons have several tiers: from A0 to A8, then AM+0 to AM+8, and finally the last tier, AM+FULL. Safe to say there\'s a long way to go!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - paliers des armes'),
+(624190, 5, 0, 'Pick up your quest here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - quete'),
+(624190, 6, 0, 'Follow me, I\'m teleporting you to the Emerald Dream Way!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - teleportation vers Chemin du Reve d\'Emeraude'),
+(624190, 7, 0, 'Here we are, we\'ve arrived at the Emerald Dream Way.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - arrivee Chemin du Reve d\'Emeraude'),
+(624190, 8, 0, 'We\'re now heading to the Monastery of the Pandashan dungeon.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - direction donjon'),
+(624190, 9, 0, 'We\'re almost there!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - presque arrive'),
+(624190, 10, 0, 'Make sure you go all the way to the end of the dungeon, your quest awaits you there.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - aller au bout du donjon'),
+(624190, 11, 0, 'Well then, our tour is coming to an end. Good luck in the dungeon, adventurer. Farewell!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - au revoir/fin'),
 (1500730, 0, 0, 'Bienvenue en Pandarie !', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Sentinelle des sept-étoiles'),
 (2000512, 0, 0, 'Welcome, adventurer! I am the Jaedenar Legionnaire. Follow me, I will guide you to the Netheril camp.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - depart vaisseau'),
 (2000512, 1, 0, 'It\'s not much further, keep following me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 1'),
@@ -21255,5 +21267,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21149 ligne(s)
+-- 21161 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
