@@ -9361,10 +9361,27 @@ INSERT INTO `quest_request_items` (`ID`, `EmoteOnComplete`, `EmoteOnIncomplete`,
 (338037, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of troggs, $n. Do not return until you have success to report.', 0),
 (338038, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of troggs, $n. Do not return until you have success to report.', 0),
 (338039, 1, 0, 'You will not go far in this new life if you are unable to kill even the weakest of Brochecorne, $n. Do not return until you have success to report.', 0),
+(900001, 1, 0, 'The line is secure. Well fought.', 0),
+(900002, 1, 0, 'Back again already? The 7th Legion is glad to have you.', 0),
+(900003, 1, 0, 'The foothold is broken. The line can hold here now.', 0),
+(900004, 1, 0, 'The flank has gone quiet. It won\'t reform as fast now.', 0),
+(900005, 1, 0, 'The vanguard is gone. The path ahead is clear, for now.', 0),
+(900006, 1, 0, 'They\'re falling back. Keep pressing while they\'re off balance.', 0),
+(900007, 1, 0, 'Their banners are down. Let them explain that back home.', 0),
+(900008, 1, 0, 'The ledges are clear. Nothing\'s watching the climb anymore.', 0),
+(900009, 1, 0, 'Their numbers are thinner now. The slope is passable.', 0),
+(900010, 1, 0, 'The ridge is held. They won\'t retake it easily.', 0),
+(900011, 1, 0, 'The camp is broken. It won\'t be finished in time to matter.', 0),
+(900012, 1, 0, 'The horns have gone quiet. Whatever was coming isn\'t anymore.', 0),
+(900013, 1, 0, 'The dig is broken open. The way forward is paid for.', 0),
+(900014, 1, 0, 'The slope is clear. Whatever\'s above knows we\'re coming now.', 0),
+(900015, 1, 0, 'The deep camp is cleared. Nothing left there to fall back on.', 0),
+(900016, 1, 0, 'The approach is clear. The commander is next.', 0),
+(900017, 1, 0, 'The last mile is theirs no longer. Krosus\'s ground is all that\'s left.', 0),
 (8008124, 0, 0, '', 0),
 (8008125, 0, 0, '', 0),
 (8008126, 0, 0, '', 0),
 (8008127, 0, 0, '', 0);
 
--- 9316 ligne(s)
+-- 9333 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
