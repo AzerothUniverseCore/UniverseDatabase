@@ -2528,7 +2528,8 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2692, -644.015e0, 2581.43e0, 82.385e0, 5.34363e0, 833, 'PathfindingScenarioLegion147'),
 (2693, -644.015e0, 2581.43e0, 82.385e0, 5.34363e0, 833, 'PathfindingScenarioLegion148'),
 (2694, -644.015e0, 2581.43e0, 82.385e0, 5.34363e0, 833, 'PathfindingScenarioLegion149'),
-(2695, -644.015e0, 2581.43e0, 82.385e0, 5.34363e0, 833, 'PathfindingScenarioLegion150IfBossDeadThenAlliedDespawn');
+(2695, -644.015e0, 2581.43e0, 82.385e0, 5.34363e0, 833, 'PathfindingScenarioLegion150IfBossDeadThenAlliedDespawn'),
+(2696, -999.436e0, 2798.01e0, 9.15121e0, 2.32205e0, 833, 'VisionTargetInfernal');
 
--- 2504 ligne(s)
+-- 2505 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
