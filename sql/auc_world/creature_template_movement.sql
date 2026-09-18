@@ -4682,6 +4682,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 (106223, 1, 0, 1, 0, 0, 0, NULL),
 (112548, 1, 0, 1, 0, 0, 0, NULL),
 (125885, 1, 0, 1, 0, 0, 0, NULL),
+(151002, 1, 0, 0, 1, 0, 0, NULL),
 (154268, 1, 0, 1, 0, 0, 0, NULL),
 (167027, 1, 0, 1, 0, 0, 0, NULL),
 (167142, 1, 0, 1, 0, 0, 0, NULL),
@@ -4737,5 +4738,5 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 (9940643, 1, 1, 1, 0, 0, 1, NULL),
 (39100002, 1, 0, 1, 0, 0, 0, NULL);
 
--- 4702 ligne(s)
+-- 4703 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
