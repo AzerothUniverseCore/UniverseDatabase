@@ -1059,7 +1059,8 @@ INSERT INTO `syphrena_string` (`entry`, `content_default`, `content_loc1`, `cont
 (20076, 'Guide me back to the Alliance landing camp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (20077, 'Queue for Wintergrasp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (900021, 'Guide me through the ship.', NULL, 'Guidez-moi a travers le vaisseau.', NULL, NULL, NULL, NULL, NULL, NULL),
-(900022, '(You are already exploring the ship with another guide.)', NULL, '(Vous explorez deja le vaisseau avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL);
+(900022, '(You are already exploring the ship with another guide.)', NULL, '(Vous explorez deja le vaisseau avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL),
+(900023, 'Guide me to the upgrade for the prodigious weapons.', NULL, 'Guide-moi vers l\'amelioration des armes prodigieuses.', NULL, NULL, NULL, NULL, NULL, NULL);
 
--- 1038 ligne(s)
+-- 1039 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

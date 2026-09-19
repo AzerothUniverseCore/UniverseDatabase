@@ -2597,7 +2597,9 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2761, -11807.0e0, 2924.17e0, 2745.98e0, 1.54278e0, 781, 'IllidariKillbride28'),
 (2762, -11810.5e0, 2930.24e0, 2745.98e0, 1.08333e0, 781, 'IllidariKillbride29'),
 (2763, -11802.4e0, 2949.87e0, 2745.98e0, 1.1226e0, 781, 'IllidariKillbride30VoiciJaedenarLegionnaireLuiParler'),
-(2764, -11800.8e0, 2931.67e0, 2745.98e0, 1.58106e0, 781, 'LegionShipIntroPDF');
+(2764, -11800.8e0, 2931.67e0, 2745.98e0, 1.58106e0, 781, 'LegionShipIntroPDF'),
+(2765, -11908.8e0, 2961.1e0, 1857.4e0, 5.04e0, 781, 'DalaranCimetiere'),
+(2766, 1658.18e0, 1573.7e0, 5.84094e0, 2.46316e0, 792, 'DreamwayCimetiere');
 
--- 2573 ligne(s)
+-- 2575 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
