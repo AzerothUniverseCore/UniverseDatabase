@@ -13874,6 +13874,7 @@ INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
 (7000719, 7000719),
 (7000720, 7000720),
 (7000722, 7000722),
+(7007719, 900020),
 (8000197, 5000724),
 (8000197, 5000725),
 (8000197, 5000726),
@@ -14036,5 +14037,5 @@ INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
 (9000116, 3007121),
 (9000116, 3008122);
 
--- 13971 ligne(s)
+-- 13972 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

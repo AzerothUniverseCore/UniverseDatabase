@@ -35545,7 +35545,6 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 (9822214, 98222140, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9822303, 98223030, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9822304, 98223040, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
-(9822405, 0, 31837, 0, 0, 0, 0, 1, 1, 0, 4, '70878 75387'),
 (9822781, 98227810, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9822785, 98227850, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9823711, 0, 0, 0, 1, 0, 0, 1, 16, 0, 4, NULL),
@@ -35659,10 +35658,10 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 (9929313, 99293130, 0, 0, 0, 0, 0, 1, 0, 0, 4, '750000'),
 (9929314, 99293140, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9929315, 99293150, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
-(9929316, 99293160, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL);
+(9929316, 99293160, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
+(9929317, 99293170, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL);
 
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `StandState`, `AnimTier`, `VisFlags`, `SheathState`, `PvPFlags`, `emote`, `visibilityDistanceType`, `auras`) VALUES
-(9929317, 99293170, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9929318, 99293180, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9929319, 99293190, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
 (9929320, 99293200, 0, 0, 0, 0, 0, 1, 0, 0, 4, NULL),
@@ -35692,5 +35691,5 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 (14507589, 145075890, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 (14507650, 145076500, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL);
 
--- 35529 ligne(s)
+-- 35528 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

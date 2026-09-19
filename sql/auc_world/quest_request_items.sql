@@ -9378,10 +9378,11 @@ INSERT INTO `quest_request_items` (`ID`, `EmoteOnComplete`, `EmoteOnIncomplete`,
 (900015, 1, 0, 'The deep camp is cleared. Nothing left there to fall back on.', 0),
 (900016, 1, 0, 'The approach is clear. The commander is next.', 0),
 (900017, 1, 0, 'The last mile is theirs no longer. Krosus\'s ground is all that\'s left.', 0),
+(900020, 0, 0, 'The ship holds no more secrets for you today. What lies beyond it is another matter entirely.', 0),
 (8008124, 0, 0, '', 0),
 (8008125, 0, 0, '', 0),
 (8008126, 0, 0, '', 0),
 (8008127, 0, 0, '', 0);
 
--- 9333 ligne(s)
+-- 9334 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

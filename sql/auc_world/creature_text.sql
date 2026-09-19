@@ -21241,6 +21241,18 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (957599, 17, 0, 'It hasn\'t noticed us yet. That won\'t last.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 148 final boss room tension'),
 (957599, 18, 0, 'This is where it ends. On my mark, we strike with everything we have.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 149 final boss combat gate'),
 (957599, 19, 0, 'It\'s over. The Broken Shore will remember this day. You all fought with honor.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 150 scenario complete'),
+(1173924, 0, 0, 'Stay close. This ship has more ghosts than crew, and not all of them are friendly.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr start'),
+(1173924, 1, 0, 'Careful here - the deck gave way when we took this ship. Brace yourself, this jump isn\'t pleasant.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr pre-jump'),
+(1173924, 2, 0, 'There. Still in one piece. Keep moving.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr post-jump'),
+(1173924, 3, 0, 'Every corridor here once marched with Legion soldiers. Now it echoes with our footsteps instead.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr midway'),
+(1173924, 4, 0, 'We\'re close now. I can feel the Legionnaires of Jaedenar still lingering ahead - old wounds this ship hasn\'t forgotten.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr near end'),
+(1173924, 5, 0, 'This is as far as the tour goes. You\'ve seen the ship - now go show the Legion what you\'ve learned.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr end'),
+(1173927, 0, 0, 'Come on then. I\'ll show you around - just don\'t wander off, this hull still has surprises.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride start'),
+(1173927, 1, 0, 'Mind your footing - this section nearly swallowed the ship when we boarded her. We jump from here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride pre-jump'),
+(1173927, 2, 0, 'Made it. Breathe if you need to, then follow.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride post-jump'),
+(1173927, 3, 0, 'Hard to believe Legion boots ever marched these same halls. Feels almost quiet now.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride midway'),
+(1173927, 4, 0, 'Almost there. Something about this stretch always makes my skin crawl - Jaedenar\'s legionnaires left their mark here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride near end'),
+(1173927, 5, 0, 'That\'s the tour done. The rest of the fight is out there, not in here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride end'),
 (1500730, 0, 0, 'Bienvenue en Pandarie !', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Sentinelle des sept-étoiles'),
 (2000512, 0, 0, 'Welcome, adventurer! I am the Jaedenar Legionnaire. Follow me, I will guide you to the Netheril camp.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - depart vaisseau'),
 (2000512, 1, 0, 'It\'s not much further, keep following me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 1'),
@@ -21274,6 +21286,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (7000143, 1, 1, 'Vous m\'agacez....', 12, 0, 0.0e0, 0, 300000, 0, 0, 0, ''),
 (7000608, 0, 1, 'Vous m\'avez peut être vaincu, mais les démons ne s\'arreteront pas !!  $N préparez-vous au pire...', 14, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
 (7000610, 1, 1, 'Vous... ne pouvez.... ME DETRUIRE !', 14, 0, 0.0e0, 0, 300000, 0, 0, 0, ''),
+(7007719, 0, 0, 'So. Another soul answers the call against the Legion. Welcome aboard, champion - this vessel is all that remains of an armada we tore from the Legion\'s grasp. Seek out Illidari Starr or Illidari Kilbride; either will show you what we have won, and what still lies ahead.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Illidan greeting'),
 (8000103, 1, 1, 'Piou !!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
 (8000123, 1, 1, 'Piou !! Piou !!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
 (8000129, 1, 3, 'Pour qui vous prenez-vous !', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
@@ -21307,5 +21320,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21201 ligne(s)
+-- 21214 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

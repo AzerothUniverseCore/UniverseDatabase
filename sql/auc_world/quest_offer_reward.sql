@@ -9409,6 +9409,7 @@ INSERT INTO `quest_offer_reward` (`ID`, `Emote1`, `Emote2`, `Emote3`, `Emote4`, 
 (900015, 1, 0, 0, 0, 0, 0, 0, 0, 'The deep camp is cleared. Nothing left there to fall back on.', 0),
 (900016, 1, 0, 0, 0, 0, 0, 0, 0, 'The approach is clear. The commander is next.', 0),
 (900017, 1, 0, 0, 0, 0, 0, 0, 0, 'The last mile is theirs no longer. Krosus\'s ground is all that\'s left.', 0),
+(900020, 0, 0, 0, 0, 0, 0, 0, 0, 'You have seen what the Legion built, and what we have made of it. Go now - there is far more work ahead than a single tour of this ship.', 0),
 (8000153, 0, 0, 0, 0, 0, 0, 0, 0, 'Vous vous tenez maintenant à l\'orée de ce monde enchanté, prêt à franchir les Portails [A] et à embrasser l\'aventure qui vous attend de l\'autre côté. L\'air est électrique d\'anticipation, et vous savez que vous êtes sur le point de vous engager dans un périple extraordinaire, où la nature et la magie se rejoignent pour dévoiler des vérités insoupçonnées.\n\nGrâce à votre persévérance et à votre courage, vous obtiendrez l\'Arme prodigieuse, un instrument de puissance et de maîtrise qui incarne les forces de la nature et de la magie. Cette arme légendaire sera votre alliée fidèle dans les batailles à venir.', 0),
 (8000154, 0, 0, 0, 0, 0, 0, 0, 0, 'Vous vous tenez maintenant à l\'orée de ce monde enchanté, prêt à franchir les Portails [A] et à embrasser l\'aventure qui vous attend de l\'autre côté. L\'air est électrique d\'anticipation, et vous savez que vous êtes sur le point de vous engager dans un périple extraordinaire, où la nature et la magie se rejoignent pour dévoiler des vérités insoupçonnées.\n\nGrâce à votre persévérance et à votre courage, vous obtiendrez l\'Arme prodigieuse, un instrument de puissance et de maîtrise qui incarne les forces de la nature et de la magie. Cette arme légendaire sera votre alliée fidèle dans les batailles à venir.', 0),
 (8000155, 0, 0, 0, 0, 0, 0, 0, 0, 'Vous vous tenez maintenant à l\'orée de ce monde enchanté, prêt à franchir les Portails [A] et à embrasser l\'aventure qui vous attend de l\'autre côté. L\'air est électrique d\'anticipation, et vous savez que vous êtes sur le point de vous engager dans un périple extraordinaire, où la nature et la magie se rejoignent pour dévoiler des vérités insoupçonnées.\n\nGrâce à votre persévérance et à votre courage, vous obtiendrez l\'Arme prodigieuse, un instrument de puissance et de maîtrise qui incarne les forces de la nature et de la magie. Cette arme légendaire sera votre alliée fidèle dans les batailles à venir.', 0),
@@ -9423,5 +9424,5 @@ INSERT INTO `quest_offer_reward` (`ID`, `Emote1`, `Emote2`, `Emote3`, `Emote4`, 
 (8008126, 0, 0, 0, 0, 0, 0, 0, 0, '', 0),
 (8008127, 0, 0, 0, 0, 0, 0, 0, 0, '', 0);
 
--- 9367 ligne(s)
+-- 9368 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

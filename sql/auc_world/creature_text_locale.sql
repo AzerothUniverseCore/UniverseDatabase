@@ -121,6 +121,18 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (957599, 17, 0, 'frFR', 'Il ne nous a pas encore remarques. Cela ne durera pas.'),
 (957599, 18, 0, 'frFR', 'Tout se joue maintenant. A mon signal, nous frappons de toutes nos forces.'),
 (957599, 19, 0, 'frFR', 'C\'est termine. Le Rivage brise se souviendra de ce jour. Vous avez tous combattu avec honneur.'),
+(1173924, 0, 0, 'frFR', 'Restez près de moi. Ce vaisseau compte plus de fantômes que d\'équipage, et tous ne sont pas amicaux.'),
+(1173924, 1, 0, 'frFR', 'Attention ici - le pont s\'est effondré quand nous avons pris ce vaisseau. Accrochez-vous, ce saut n\'a rien d\'agréable.'),
+(1173924, 2, 0, 'frFR', 'Voilà. Toujours entier. On continue.'),
+(1173924, 3, 0, 'frFR', 'Chaque couloir ici a autrefois vu défiler des soldats de la Légion. Maintenant, ce sont nos pas qui y résonnent.'),
+(1173924, 4, 0, 'frFR', 'Nous approchons. Je sens encore la présence des légionnaires de Jaedenar plus loin - de vieilles blessures que ce vaisseau n\'a pas oubliées.'),
+(1173924, 5, 0, 'frFR', 'Le circuit s\'arrête ici. Vous avez vu le vaisseau - allez maintenant montrer à la Légion ce que vous avez appris.'),
+(1173927, 0, 0, 'frFR', 'Allons-y. Je vais vous faire visiter - ne vous éloignez pas, cette coque cache encore des surprises.'),
+(1173927, 1, 0, 'frFR', 'Attention où vous marchez - cette section a presque englouti le vaisseau quand nous l\'avons pris d\'assaut. On saute d\'ici.'),
+(1173927, 2, 0, 'frFR', 'On y est. Reprenez votre souffle si besoin, puis suivez-moi.'),
+(1173927, 3, 0, 'frFR', 'Difficile de croire que des bottes de la Légion ont un jour foulé ces mêmes couloirs. Ça semble presque calme, maintenant.'),
+(1173927, 4, 0, 'frFR', 'On y est presque. Ce passage me donne toujours la chair de poule - les légionnaires de Jaedenar y ont laissé leur marque.'),
+(1173927, 5, 0, 'frFR', 'Voilà, la visite est terminée. Le reste du combat se joue là-bas, pas ici.'),
 (2000512, 0, 0, 'frFR', 'Bienvenue, aventurier ! Je suis le Légionnaire de Jaedenar. Suivez-moi, je vais vous guider jusqu\'au camp de Netheril.'),
 (2000512, 1, 0, 'frFR', 'Ce n\'est plus très loin, continuez de me suivre.'),
 (2000512, 2, 0, 'frFR', 'Cette zone est prévue pour vous équiper avec du stuff d\'ilvl 245.'),
@@ -139,7 +151,8 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (2000512, 15, 0, 'frFR', 'Prenez vos quêtes, puis continuons la visite.'),
 (2000512, 16, 0, 'frFR', 'En participant aux champs de bataille avec les bots, vous gagnerez des points d\'honneur, échangeables contre des montures ou de l\'équipement PvP.'),
 (2000512, 17, 0, 'frFR', 'De nouvelles quêtes vous attendent ici, puis nous continuons.'),
-(2000512, 18, 0, 'frFR', 'Récupérez vos dernières quêtes ici. Notre visite de Netheril touche à sa fin. Bonne chance dans votre aventure, aventurier. Au revoir !');
+(2000512, 18, 0, 'frFR', 'Récupérez vos dernières quêtes ici. Notre visite de Netheril touche à sa fin. Bonne chance dans votre aventure, aventurier. Au revoir !'),
+(7007719, 0, 0, 'frFR', 'Ainsi, une âme de plus répond à l\'appel contre la Légion. Bienvenue à bord, champion. Ce vaisseau est tout ce qu\'il nous reste d\'une flotte arrachée aux griffes de la Légion. Trouvez Illidari Starr ou Illidari Kilbride ; l\'un comme l\'autre vous montrera ce que nous avons conquis, et ce qu\'il nous reste à affronter.');
 
--- 127 ligne(s)
+-- 140 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
