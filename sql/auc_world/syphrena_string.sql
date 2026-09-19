@@ -1060,7 +1060,12 @@ INSERT INTO `syphrena_string` (`entry`, `content_default`, `content_loc1`, `cont
 (20077, 'Queue for Wintergrasp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (900021, 'Guide me through the ship.', NULL, 'Guidez-moi a travers le vaisseau.', NULL, NULL, NULL, NULL, NULL, NULL),
 (900022, '(You are already exploring the ship with another guide.)', NULL, '(Vous explorez deja le vaisseau avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL),
-(900023, 'Guide me to the upgrade for the prodigious weapons.', NULL, 'Guide-moi vers l\'amelioration des armes prodigieuses.', NULL, NULL, NULL, NULL, NULL, NULL);
+(900023, 'Guide me to the upgrade for the prodigious weapons.', NULL, 'Guide-moi vers l\'amelioration des armes prodigieuses.', NULL, NULL, NULL, NULL, NULL, NULL),
+(900024, '(You are already exploring the weapon upgrade with another guide.)', NULL, '(Vous explorez deja l\'amelioration des armes avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL),
+(900025, 'Take me to visit Nerozias and the Dreamway.', NULL, 'Emmenez-moi visiter Nerozias et le Chemin du Reve d\'Emeraude.', NULL, NULL, NULL, NULL, NULL, NULL),
+(900026, '(You are already visiting Nerozias with another guide.)', NULL, '(Vous visitez deja Nerozias avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL),
+(900027, 'Take me to visit the Netheril camp.', NULL, 'Emmenez-moi visiter le camp de Netheril.', NULL, NULL, NULL, NULL, NULL, NULL),
+(900028, '(You are already visiting the Netheril camp with another guide.)', NULL, '(Vous visitez deja le camp de Netheril avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL);
 
--- 1039 ligne(s)
+-- 1044 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
