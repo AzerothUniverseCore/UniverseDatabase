@@ -2599,7 +2599,14 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2763, -11802.4e0, 2949.87e0, 2745.98e0, 1.1226e0, 781, 'IllidariKillbride30VoiciJaedenarLegionnaireLuiParler'),
 (2764, -11800.8e0, 2931.67e0, 2745.98e0, 1.58106e0, 781, 'LegionShipIntroPDF'),
 (2765, -11908.8e0, 2961.1e0, 1857.4e0, 5.04e0, 781, 'DalaranCimetiere'),
-(2766, 1658.18e0, 1573.7e0, 5.84094e0, 2.46316e0, 792, 'DreamwayCimetiere');
+(2766, 1658.18e0, 1573.7e0, 5.84094e0, 2.46316e0, 792, 'DreamwayCimetiere'),
+(2767, -12584.4e0, -2910.53e0, 4587.62e0, 6.23228e0, 737, 'SiegePanthonSudEst'),
+(2768, -12580.4e0, -2857.37e0, 4587.55e0, 6.08306e0, 737, 'SiegePanthonSudOuest'),
+(2769, -12546.7e0, -2885.89e0, 4587.14e0, 6.17337e0, 737, 'SiegePanthonCentre'),
+(2770, -12514.8e0, -2915.71e0, 4587.08e0, 5.73355e0, 737, 'SiegePanthonNordEst'),
+(2771, -12512.0e0, -2861.38e0, 4586.97e0, 6.00452e0, 737, 'SiegePanthonNordOuest'),
+(2772, -12589.5e0, -2883.14e0, 4587.38e0, 6.18e0, 737, 'SpawnPlayerSiegePantheon'),
+(2773, -12571.3e0, -2884.52e0, 4587.28e0, 6.20749e0, 737, 'TriggerAttackBossSiegePantheon');
 
--- 2575 ligne(s)
+-- 2582 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
