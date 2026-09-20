@@ -2606,7 +2606,8 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2770, -12514.8e0, -2915.71e0, 4587.08e0, 5.73355e0, 737, 'SiegePanthonNordEst'),
 (2771, -12512.0e0, -2861.38e0, 4586.97e0, 6.00452e0, 737, 'SiegePanthonNordOuest'),
 (2772, -12589.5e0, -2883.14e0, 4587.38e0, 6.18e0, 737, 'SpawnPlayerSiegePantheon'),
-(2773, -12571.3e0, -2884.52e0, 4587.28e0, 6.20749e0, 737, 'TriggerAttackBossSiegePantheon');
+(2773, -12571.3e0, -2884.52e0, 4587.28e0, 6.20749e0, 737, 'TriggerAttackBossSiegePantheon'),
+(2774, 2366.56e0, -5656.79e0, 382.276e0, 0.591872e0, 0, 'DomaineClassDK');
 
--- 2582 ligne(s)
+-- 2583 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

@@ -1058,6 +1058,7 @@ INSERT INTO `syphrena_string` (`entry`, `content_default`, `content_loc1`, `cont
 (20075, 'Guide me back to the Horde landing camp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (20076, 'Guide me back to the Alliance landing camp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (20077, 'Queue for Wintergrasp.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(20078, 'You must complete the quest \"A Vessel Torn from the Legion\" before you can enter the Death Knight domain.', NULL, 'Vous devez terminer la quête \"Un vaisseau arraché à la Légion\" avant de pouvoir accéder au domaine des Chevaliers de la mort.', NULL, NULL, NULL, NULL, NULL, NULL),
 (900021, 'Guide me through the ship.', NULL, 'Guidez-moi a travers le vaisseau.', NULL, NULL, NULL, NULL, NULL, NULL),
 (900022, '(You are already exploring the ship with another guide.)', NULL, '(Vous explorez deja le vaisseau avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL),
 (900023, 'Guide me to the upgrade for the prodigious weapons.', NULL, 'Guide-moi vers l\'amelioration des armes prodigieuses.', NULL, NULL, NULL, NULL, NULL, NULL),
@@ -1067,5 +1068,5 @@ INSERT INTO `syphrena_string` (`entry`, `content_default`, `content_loc1`, `cont
 (900027, 'Take me to visit the Netheril camp.', NULL, 'Emmenez-moi visiter le camp de Netheril.', NULL, NULL, NULL, NULL, NULL, NULL),
 (900028, '(You are already visiting the Netheril camp with another guide.)', NULL, '(Vous visitez deja le camp de Netheril avec un autre guide.)', NULL, NULL, NULL, NULL, NULL, NULL);
 
--- 1044 ligne(s)
+-- 1045 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
