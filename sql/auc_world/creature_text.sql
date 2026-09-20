@@ -21101,7 +21101,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (90000, 2, 0, 'Vous prenez ça vraiment au sérieux, pas vrai ?', 12, 0, 0.0e0, 11, 500, 0, 0, 0, 'Commentaire'),
 (90000, 2, 1, 'Et voila ... c\'etait prévisible', 12, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
 (90100, 0, 0, 'Alright, let\'s head to the Hall of Shadows! It\'s there, deep in the bowels of Dalaran, that your artifact weapon can be upgraded.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - depart'),
-(90100, 1, 0, 'Here we are. The upgrade for your artifact weapon is right in front of us.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - arrivee'),
+(90100, 1, 0, 'Here we are. The upgrade for your artifact weapon is right in front of us. Bye!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - arrivee'),
 (90100, 2, 0, 'To upgrade your artifact weapons, you\'ll need Infusion Crystals.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - cristaux d\'infusion');
 
 INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
@@ -21208,7 +21208,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (624190, 7, 0, 'Here we are, we\'ve arrived at the Emerald Dream Way.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - arrivee Chemin du Reve d\'Emeraude'),
 (624190, 8, 0, 'We\'re now heading to the Monastery of the Pandashan dungeon.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - direction donjon'),
 (624190, 9, 0, 'We\'re almost there!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - presque arrive'),
-(624190, 10, 0, 'Make sure you go all the way to the end of the dungeon, your quest awaits you there.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - aller au bout du donjon'),
+(624190, 10, 0, 'Make sure you go all the way to the end of the dungeon, your achievement awaits you there.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - aller au bout du donjon'),
 (624190, 11, 0, 'Well then, our tour is coming to an end. Good luck in the dungeon, adventurer. Farewell!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Nerozias - au revoir/fin'),
 (956655, 0, 0, 'The Broken Shore forgives no hesitation. Stay close, the Legion is watching us from the ashes.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - escort start'),
 (956655, 1, 0, 'Follow me, and keep your weapon ready. These ash fields have already swallowed scouts far more seasoned than us.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 1'),
@@ -21250,18 +21250,19 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (957599, 17, 0, 'It hasn\'t noticed us yet. That won\'t last.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 148 final boss room tension'),
 (957599, 18, 0, 'This is where it ends. On my mark, we strike with everything we have.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 149 final boss combat gate'),
 (957599, 19, 0, 'It\'s over. The Broken Shore will remember this day. You all fought with honor.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Alliance escort leader - checkpoint 150 scenario complete'),
+(1075945, 0, 0, 'Here! I have a Sesame to give away - come choose your profession! Just remember: once you have learned it, you will need to log out and log back in for it to show up in your spellbook.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Sevis Brightflame - OOC LOS - Say Line 0'),
 (1173924, 0, 0, 'Stay close. This ship has more ghosts than crew, and not all of them are friendly.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr start'),
-(1173924, 1, 0, 'Careful here - the deck gave way when we took this ship. Brace yourself, this jump isn\'t pleasant.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr pre-jump'),
+(1173924, 1, 0, 'Careful here, the deck gave way when we took this ship.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr pre-jump'),
 (1173924, 2, 0, 'There. Still in one piece. Keep moving.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr post-jump'),
 (1173924, 3, 0, 'Every corridor here once marched with Legion soldiers. Now it echoes with our footsteps instead.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr midway'),
 (1173924, 4, 0, 'We\'re close now. I can feel the Legionnaires of Jaedenar still lingering ahead - old wounds this ship hasn\'t forgotten.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr near end'),
-(1173924, 5, 0, 'This is as far as the tour goes. You\'ve seen the ship - now go show the Legion what you\'ve learned.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr end'),
-(1173927, 0, 0, 'Come on then. I\'ll show you around - just don\'t wander off, this hull still has surprises.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride start'),
-(1173927, 1, 0, 'Mind your footing - this section nearly swallowed the ship when we boarded her. We jump from here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride pre-jump'),
+(1173924, 5, 0, 'The tour ends here. You have seen the vessel; now go show the Legion what you have learned. Speak to the Jaedenar Legionnaire, and he will lead you to Netheril.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Starr end'),
+(1173927, 0, 0, 'Come on then. I\'ll show you around, just don\'t wander off, this hull still has surprises.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride start'),
+(1173927, 1, 0, 'Mind your footing, this section nearly swallowed the ship when we boarded her.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride pre-jump'),
 (1173927, 2, 0, 'Made it. Breathe if you need to, then follow.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride post-jump'),
 (1173927, 3, 0, 'Hard to believe Legion boots ever marched these same halls. Feels almost quiet now.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride midway'),
 (1173927, 4, 0, 'Almost there. Something about this stretch always makes my skin crawl - Jaedenar\'s legionnaires left their mark here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride near end'),
-(1173927, 5, 0, 'That\'s the tour done. The rest of the fight is out there, not in here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride end'),
+(1173927, 5, 0, 'There, the tour is over. The rest of the battle plays out over there, not here. Speak to the Jaedenar Legionnaire; he will lead you to Netheril.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Kilbride end'),
 (1500730, 0, 0, 'Bienvenue en Pandarie !', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Sentinelle des sept-étoiles'),
 (2000512, 0, 0, 'Welcome, adventurer! I am the Jaedenar Legionnaire. Follow me, I will guide you to the Netheril camp.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - depart vaisseau'),
 (2000512, 1, 0, 'It\'s not much further, keep following me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 1'),
@@ -21269,11 +21270,11 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (2000512, 3, 0, 'It will help you prepare before facing Azeroth Universe\'s custom dungeons.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 3'),
 (2000512, 4, 0, 'You will need to complete the Netheril achievement to access Azeroth Universe\'s custom dungeon.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vaisseau 4'),
 (2000512, 5, 0, 'Here we are. Stay close to me, I\'m teleporting you to Netheril Camp 1!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - teleportation vers Netheril'),
-(2000512, 6, 0, 'Here we are, we\'ve arrived at Netheril.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - arrivee camp'),
+(2000512, 6, 0, '\r\nHere we are in Netheril. Pick up your first quest, then follow me.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - arrivee camp'),
 (2000512, 7, 0, 'Follow me, I\'ll show you around.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - intro visite'),
 (2000512, 8, 0, 'Pick up your quests here, then we\'ll continue on our way.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - quetes 1'),
 (2000512, 9, 0, 'This is where you\'ll find the creatures to defeat in order to earn gear vouchers, which you can then convert to equip yourself before Azeroth Universe\'s custom dungeons.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - zone creatures/bons d\'equipement'),
-(2000512, 10, 0, 'You can also pick up gear around here.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - bons d\'equipement bis'),
+(2000512, 10, 0, '\r\nYou can also pick up your equipment here for the Horde.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - bons d\'equipement bis'),
 (2000512, 11, 0, 'To access the first dungeon of the Lands of Fyra, S0 tier of Azeroth Universe, you\'ll need to earn the Netheril achievement.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - haut fait'),
 (2000512, 12, 0, 'By defeating the creatures I showed you, you\'ll earn gear vouchers. Here, you can convert them into higher-tier gear vouchers.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - conversion des bons'),
 (2000512, 13, 0, 'Here, you can buy your recipes.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide Netheril - vente de recettes'),
@@ -21295,7 +21296,7 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (7000143, 1, 1, 'Vous m\'agacez....', 12, 0, 0.0e0, 0, 300000, 0, 0, 0, ''),
 (7000608, 0, 1, 'Vous m\'avez peut être vaincu, mais les démons ne s\'arreteront pas !!  $N préparez-vous au pire...', 14, 0, 0.0e0, 1, 500, 0, 0, 0, 'Commentaire'),
 (7000610, 1, 1, 'Vous... ne pouvez.... ME DETRUIRE !', 14, 0, 0.0e0, 0, 300000, 0, 0, 0, ''),
-(7007719, 0, 0, 'So. Another soul answers the call against the Legion. Welcome aboard, champion - this vessel is all that remains of an armada we tore from the Legion\'s grasp. Seek out Illidari Starr or Illidari Kilbride; either will show you what we have won, and what still lies ahead.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Illidan greeting'),
+(7007719, 0, 0, 'So. Another soul answers the call against the Legion. Welcome aboard, champion - this vessel is all that remains of an armada we tore from the Legion\'s grasp. Speak Illidari Starr or Illidari Kilbride; either will show you what we have won, and what still lies ahead.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'LegionShipIntro - Illidan greeting'),
 (8000103, 1, 1, 'Piou !!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
 (8000123, 1, 1, 'Piou !! Piou !!', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
 (8000129, 1, 3, 'Pour qui vous prenez-vous !', 14, 0, 0.0e0, 0, 20000, 0, 0, 0, ''),
@@ -21329,5 +21330,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21223 ligne(s)
+-- 21224 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
