@@ -21108,6 +21108,15 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (90100, 3, 0, 'Each upgrade costs 14,000 Infusion Crystals, so you\'d better start farming!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - cout de l\'amelioration'),
 (90100, 4, 0, 'Nothing simpler to find them: they\'re all over the world, every creature drops 10.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - farm des cristaux'),
 (90100, 5, 0, 'In our capital, a gnome runs a creature arena event: an excellent way to gather a large quantity of them.', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Guide - event arene du gnome'),
+(124828, 0, 0, 'The Pantheon\'s light will not save you here!', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Argus l\'Annihilateur - Engage'),
+(124828, 1, 0, 'Im...possible...', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Argus l\'Annihilateur - Death'),
+(124828, 2, 0, 'Flee if you must - the Void does not forget!', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Argus l\'Annihilateur - Retreat (throne swap)'),
+(125885, 0, 0, 'Rest, my children - order shall endure a while longer.', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Aman\'Thul - Retreat (throne swap)'),
+(125886, 0, 0, 'Even the forge must cool before it burns anew.', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Khaz\'goroth - Retreat (throne swap)'),
+(125893, 0, 0, 'A champion never truly retreats - I merely regroup!', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Aggramar - Retreat (throne swap)'),
+(126266, 0, 0, 'Wisdom dictates a tactical withdrawal, nothing more.', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Norgannon - Retreat (throne swap)'),
+(126267, 0, 0, 'I withdraw to heal - but the cycle of life continues.', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Eonar - Retreat (throne swap)'),
+(126268, 0, 0, 'The storm will return - rest now, but not for long!', 14, 0, 100.0e0, 0, 0, 0, 0, 0, 'Golganneth - Retreat (throne swap)'),
 (150255, 0, 0, 'Gimme all your vegetables!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (150255, 0, 1, 'AIIIIEEEEEEE!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
 (150255, 0, 2, 'This virmen land!', 12, 0, 100.0e0, 0, 0, 0, 0, 0, 'Plump Virmen'),
@@ -21320,5 +21329,5 @@ INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Lan
 (9940129, 1, 5, 'YOU SHALL NOT PASS !!!!', 14, 0, 0.0e0, 0, 60000, 0, 0, 0, ''),
 (9940129, 1, 6, 'Être aussi faible que vous ne devrait pas pouvoir être permis misérables vermine !', 14, 0, 0.0e0, 0, 90000, 0, 0, 0, '');
 
--- 21214 ligne(s)
+-- 21223 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;

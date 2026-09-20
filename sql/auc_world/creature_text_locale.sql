@@ -65,6 +65,15 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (90100, 3, 0, 'frFR', 'Chaque amelioration coute 14 000 Cristaux d\'Infusion, autant te dire qu\'il va falloir en recolter !'),
 (90100, 4, 0, 'frFR', 'Rien de plus simple pour en trouver : il y en a partout dans le monde, chaque creature en laisse 10.'),
 (90100, 5, 0, 'frFR', 'Dans notre capitale, un gnome organise un event d\'arene de creatures : un excellent moyen d\'en recolter en grande quantite.'),
+(124828, 0, 0, 'frFR', 'La lumière du Panthéon ne vous sauvera pas ici !'),
+(124828, 1, 0, 'frFR', 'C’est... impossible...'),
+(124828, 2, 0, 'frFR', 'Fuyez si vous le pouvez - le Néant n\'oublie jamais !'),
+(125885, 0, 0, 'frFR', 'Reposez-vous, mes enfants - l\'ordre perdurera encore un peu.'),
+(125886, 0, 0, 'frFR', 'Même la forge doit refroidir avant de brûler à nouveau.'),
+(125893, 0, 0, 'frFR', 'Un champion ne recule jamais vraiment - je me regroupe, simplement !'),
+(126266, 0, 0, 'frFR', 'La sagesse dicte un retrait tactique, rien de plus.'),
+(126267, 0, 0, 'frFR', 'Je me retire pour guérir - mais le cycle de la vie continue.'),
+(126268, 0, 0, 'frFR', 'La tempête reviendra - reposez-vous, mais pas pour longtemps !'),
 (150255, 0, 0, 'frFR', 'Donnez-moi tous vos légumes !'),
 (150255, 0, 1, 'frFR', 'AIIIIEEEEEEE!'),
 (150255, 0, 2, 'frFR', 'Cette terre de virmen !'),
@@ -154,5 +163,5 @@ INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Te
 (2000512, 18, 0, 'frFR', 'Récupérez vos dernières quêtes ici. Notre visite de Netheril touche à sa fin. Bonne chance dans votre aventure, aventurier. Au revoir !'),
 (7007719, 0, 0, 'frFR', 'Ainsi, une âme de plus répond à l\'appel contre la Légion. Bienvenue à bord, champion. Ce vaisseau est tout ce qu\'il nous reste d\'une flotte arrachée aux griffes de la Légion. Trouvez Illidari Starr ou Illidari Kilbride ; l\'un comme l\'autre vous montrera ce que nous avons conquis, et ce qu\'il nous reste à affronter.');
 
--- 140 ligne(s)
+-- 149 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
