@@ -2609,7 +2609,16 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2773, -12571.3e0, -2884.52e0, 4587.28e0, 6.20749e0, 737, 'TriggerAttackBossSiegePantheon'),
 (2774, 2366.56e0, -5656.79e0, 382.276e0, 0.591872e0, 0, 'DomaineClassDK'),
 (2775, -654.685e0, 1756.82e0, 5.3588e0, 3.23284e0, 833, 'DalaranLegionVersRivageBrise'),
-(2776, -11908.8e0, 2961.1e0, 1857.4e0, 5.04e0, 781, 'DalaranLegion');
+(2776, -11908.8e0, 2961.1e0, 1857.4e0, 5.04e0, 781, 'DalaranLegion'),
+(2777, -11929.8e0, 2973.13e0, 1857.65e0, 0.94023e0, 781, 'DalaranToPortalLegion1'),
+(2778, -11922.1e0, 2978.39e0, 1861.2e0, 1.21512e0, 781, 'DalaranToPortalLegion2'),
+(2779, -11917.7e0, 3005.21e0, 1869.83e0, 1.27402e0, 781, 'DalaranToPortalLegion3'),
+(2780, -11908.7e0, 3027.61e0, 1873.01e0, 1.168e0, 781, 'DalaranToPortalLegion4'),
+(2781, -11891.0e0, 3069.01e0, 1850.37e0, 1.168e0, 781, 'DalaranToPortalLegion5'),
+(2782, -11877.5e0, 3109.65e0, 1813.38e0, 1.20727e0, 781, 'DalaranToPortalLegion6'),
+(2783, -11861.3e0, 3147.32e0, 1779.31e0, 1.14443e0, 781, 'DalaranToPortalLegion7'),
+(2784, -11855.1e0, 3159.51e0, 1769.83e0, 0.948084e0, 781, 'DalaranToPortalLegion8'),
+(2785, -11843.5e0, 3177.1e0, 1759.37e0, 0.967719e0, 781, 'DalaranToPortalLegion9');
 
--- 2585 ligne(s)
+-- 2594 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
