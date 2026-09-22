@@ -2618,7 +2618,20 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 (2782, -11877.5e0, 3109.65e0, 1813.38e0, 1.20727e0, 781, 'DalaranToPortalLegion6'),
 (2783, -11861.3e0, 3147.32e0, 1779.31e0, 1.14443e0, 781, 'DalaranToPortalLegion7'),
 (2784, -11855.1e0, 3159.51e0, 1769.83e0, 0.948084e0, 781, 'DalaranToPortalLegion8'),
-(2785, -11843.5e0, 3177.1e0, 1759.37e0, 0.967719e0, 781, 'DalaranToPortalLegion9');
+(2785, -11843.5e0, 3177.1e0, 1759.37e0, 0.967719e0, 781, 'DalaranToPortalLegion9'),
+(2786, 977.935e0, -341.829e0, 0.942115e0, 0.283849e0, 868, 'SpawnPlayerEventBoralus'),
+(2787, 965.913e0, -291.916e0, 3.28355e0, 5.24364e0, 868, 'SpawnCreatureArenaBoralus'),
+(2788, 1051.8e0, -363.338e0, 1.83889e0, 1.96586e0, 868, 'SpawnCreatureArenaBoralus2'),
+(2789, 957.508e0, -306.362e0, 1.28473e0, 2.69235e0, 868, 'CoinArenaBoralus1'),
+(2790, 998.796e0, -289.876e0, 0.805288e0, 1.12674e0, 868, 'CoinArenaBoralus2'),
+(2791, 1039.2e0, -301.705e0, 0.247197e0, 6.19255e0, 868, 'CoinArenaBoralus3'),
+(2792, 1059.39e0, -345.979e0, 2.29901e0, 5.62311e0, 868, 'CoinArenaBoralus4'),
+(2793, 1043.07e0, -354.513e0, 2.29766e0, 4.25652e0, 868, 'CoinArenaBoralus5'),
+(2794, 1027.01e0, -360.089e0, 2.38541e0, 4.25652e0, 868, 'CoinArenaBoralus6'),
+(2795, 1007.56e0, -368.577e0, 2.46792e0, 4.46465e0, 868, 'CoinArenaBoralus7'),
+(2796, 989.612e0, -377.023e0, 1.36583e0, 4.49999e0, 868, 'CoinArenaBoralus8'),
+(2797, 968.631e0, -334.147e0, 1.2708e0, 2.51293e0, 868, 'CoinArenaBoralus9'),
+(2798, 957.532e0, -306.327e0, 1.28352e0, 2.26349e0, 868, 'CoinArenaBoralus10');
 
--- 2594 ligne(s)
+-- 2607 ligne(s)
 SET FOREIGN_KEY_CHECKS = 1;
